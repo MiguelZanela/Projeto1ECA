@@ -4,8 +4,8 @@
  * O sistema e formado, basicamente pelas classes "Catalogo", pela interface "Veiculo" (e suas implementacoes) 
  * e pela classe que contém a interface com o usuario (pode ser texto) e o metodo main. 
  * 
- * 
- *@author Miguel zanela, 
+ *  
+ * @author Miguel zanela, 
  * 
  * version 24 Ago 2020
  */
@@ -13,5 +13,13 @@
 public class App {
     public static void main(String args[]){
 
+        Catalogo.veiculos.add(new Carro("VM", "gol", 1995, 2, 1546165156, 1551.24156));
+        Catalogo.veiculos.add(new Moto("honda", "cg", 1995, 2, 1546165156, 1551.24156));
+        Catalogo.veiculos.add(new Suv("Jeep", "Renegade", 1995, 2, 1546165156, 1551.24156));
+        Catalogo.veiculos.add(new Suv("VM", "saveiro", 1995, 2, 1546165156, 1551.24156));
+
+        for(Veiculo it: Catalogo.veiculos){
+            System.out.println(it);
+        }
     }
 }
