@@ -1,3 +1,11 @@
+/**
+ * objeto Moto, extende catalogo e implementa veiculo
+ * 
+ * @author Miguel zanela, 
+ * 
+ * version 24 Ago 2020
+ */
+
 public class Moto extends Catalogo implements Veiculo {
 
     public Moto(String marca, String cor, int ano, int uniDisponiveis, double km, double valor){

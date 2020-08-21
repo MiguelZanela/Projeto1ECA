@@ -1,3 +1,11 @@
+/**
+ * objeto Suv, extende catalogo e implementa veiculo
+ * 
+ * @author Miguel zanela, 
+ * 
+ * version 24 Ago 2020
+ */
+
 public class Suv extends Catalogo implements Veiculo {
 
     public Suv(String marca, String cor, int ano, int uniDisponiveis, double km, double valor){

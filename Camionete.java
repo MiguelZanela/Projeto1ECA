@@ -1,3 +1,11 @@
+/**
+ * objeto Comionete, extende catalogo e implementa veiculo
+ * 
+ * @author Miguel zanela, 
+ * 
+ * version 24 Ago 2020
+ */
+
 public class Camionete extends Catalogo implements Veiculo {
 
     public Camionete(String marca, String cor, int ano, int uniDisponiveis, double km, double valor){
