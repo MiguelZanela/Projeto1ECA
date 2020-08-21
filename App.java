@@ -13,11 +13,13 @@
 public class App {
     public static void main(String args[]){
 
+        //apenas para teste
         Catalogo.veiculos.add(new Carro("VM", "gol", 1995, 2, 1546165156, 1551.24156));
         Catalogo.veiculos.add(new Moto("honda", "cg", 1995, 2, 1546165156, 1551.24156));
         Catalogo.veiculos.add(new Suv("Jeep", "Renegade", 1995, 2, 1546165156, 1551.24156));
         Catalogo.veiculos.add(new Suv("VM", "saveiro", 1995, 2, 1546165156, 1551.24156));
 
+        //apenas para teste
         for(Veiculo it: Catalogo.veiculos){
             System.out.println(it);
         }

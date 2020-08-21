@@ -17,10 +17,10 @@ public class Catalogo{
     protected int uniDisponiveis;
     protected double kmAtual;
     protected double valor;
-    public static List <Veiculo> veiculos = new ArrayList<>();
+    public static List <Veiculo> veiculos = new ArrayList<>(); //apenas para teste no modo public static
 
 
-    @Override
+    @Override // falta organizar o print
     public String toString(){
         return this.marca + " " + this.cor + " " + this.ano  + " " + this.uniDisponiveis  + " " + this.kmAtual + " " + this.valor;
     }
