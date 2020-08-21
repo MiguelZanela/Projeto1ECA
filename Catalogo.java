@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * A classe "Catalogo" mantem uma lista com os veeculos a venda. 
+ * A classe "Catalogo" mantem uma lista com os veiculos a venda. bem como serve de super para os veiculos 
  * Por simplicidade a inicializacao desta lista pode ser "hard coded"
  * 
  * @author Miguel zanela, 
@@ -8,5 +11,18 @@
  */
 
 public class Catalogo{
+    protected String marca;
+    protected String cor;
+    protected int ano;
+    protected int uniDisponiveis;
+    protected double kmAtual;
+    protected double valor;
+    public static List <Veiculo> veiculos = new ArrayList<>();
+
+
+    @Override
+    public String toString(){
+        return this.marca + " " + this.cor + " " + this.ano  + " " + this.uniDisponiveis  + " " + this.kmAtual + " " + this.valor;
+    }
 
 }
