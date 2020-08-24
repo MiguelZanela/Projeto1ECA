@@ -22,7 +22,7 @@ public class Catalogo{
 
     @Override // falta organizar o print
     public String toString(){
-        return this.marca + " " + this.cor + " " + this.ano  + " " + this.uniDisponiveis  + " " + this.kmAtual + " " + this.valor;
+        return "Veiculo: "+ this.marca + ", Cor: " + this.cor + ", Ano: " + this.ano  + ", Unidade: " + this.uniDisponiveis  + ", Km: " + this.kmAtual + ", Valor: " + this.valor;
     }
 
 }

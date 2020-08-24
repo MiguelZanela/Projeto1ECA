@@ -6,9 +6,9 @@
  * version 24 Ago 2020
  */
 
-public class Camionete extends Catalogo implements Veiculo {
+public class Caminhonete extends Catalogo implements Veiculo {
 
-    public Camionete(String marca, String cor, int ano, int uniDisponiveis, double km, double valor){
+    public Caminhonete(String marca, String cor, int ano, int uniDisponiveis, double km, double valor){
         super.marca = marca;
         super.ano = ano;
         super.cor = cor;
