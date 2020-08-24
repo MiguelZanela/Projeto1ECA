@@ -5,7 +5,7 @@ import java.util.List;
  * A classe "Catalogo" mantem uma lista com os veiculos a venda. bem como serve de super para os veiculos 
  * Por simplicidade a inicializacao desta lista pode ser "hard coded"
  * 
- * @author Miguel zanela, 
+ * @author Miguel zanela, Rafael Mattone
  * 
  * version 24 Ago 2020
  */
